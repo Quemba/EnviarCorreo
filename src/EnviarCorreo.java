@@ -6,10 +6,10 @@ public class EnviarCorreo {
 
     public static void main(String[] args) {
 
-        String correoEmisor = "squembam@ucentral.edu.co";
-        String contraseña = "pltw sqgv wlhq wkpe";
+        String correoEmisor = "tucorreo@dominio.com";
+        String contraseña = "ejm contraseña:pltw sqgv wlhq wkpe";
 
-        String correoReceptor = "sequemba@gmail.com";
+        String correoReceptor = "gbricenor@ucentral.edu.co";
 
         Properties propiedades = new Properties();
 
