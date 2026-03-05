@@ -6,10 +6,10 @@ public class EnviarCorreo {
 
     public static void main(String[] args) {
 
-        String correoEmisor = "tucorreo@dominio.com";
-        String contraseña = "ejmcontraseña: pltw sqgv wlhq wkpe";
+        String correoEmisor = "squembam@ucentral.edu.co";
+        String contraseña = "pltw sqgv wlhq wkpe";
 
-        String correoReceptor = "correoquerecibe@dominio.com";
+        String correoReceptor = "sequemba@gmail.com";
 
         Properties propiedades = new Properties();
 
@@ -37,7 +37,7 @@ public class EnviarCorreo {
 
             mensaje.setSubject("Correo enviado desde Java");
 
-            mensaje.setText("Integrante del equipo:\n\nSergio Quemba");
+            mensaje.setText("Integrante:\n\nSergio Quemba \n\nLink del repositorio:\n\nhttps://github.com/Quemba/EnviarCorreo");
 
             Transport.send(mensaje);
 
